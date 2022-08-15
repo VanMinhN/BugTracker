@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Adminlogin.aspx" />
+    <Content Include="AdminMemberManagement.aspx" />
     <Content Include="bootstrap\css\bootstrap-grid.css" />
     <Content Include="bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="bootstrap\css\bootstrap-grid.rtl.css" />
@@ -2150,6 +2151,7 @@
     <Content Include="homepage.aspx" />
     <Content Include="img\Admin.png" />
     <Content Include="img\Bugs.png" />
+    <Content Include="img\bug_report.png" />
     <Content Include="img\Footer-Banner.png" />
     <Content Include="img\member.png" />
     <Content Include="img\Signup.png" />
@@ -2166,6 +2168,13 @@
     </Compile>
     <Compile Include="Adminlogin.aspx.designer.cs">
       <DependentUpon>Adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.designer.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
